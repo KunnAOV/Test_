@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteRule ^Profile$ Success.php [L]
+RewriteRule ^success$ Success.php [L]
+RewriteRule ^Success$ Success.php [L]
+RewriteRule ^logout$ Logout.php [L]
+RewriteRule ^cp$ cp/Admin.php [L]
+RewriteRule ^deleteaccount$ cp/DeleteAccount.php [L]
+RewriteRule ^api/prelogin$ login/prelogin.php [L]
+RewriteRule ^api/login$ login/prelogin.php [L]
+RewriteRule ^xac-minh-otp.html$ login/XacMinhSDT.php [L]
+RewriteRule ^API_LOGIN$ AjaxLoginFb.php [L]
+RewriteRule ^login/$ FormLoginGas.php [L]
